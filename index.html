@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hola Mundo — Proyecto tecno-pedagógico que acerca a niñas, niños y jóvenes de 13 a 18 años a habilidades digitales en demanda." />
+  <meta name="theme-color" content="#2326F7" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hola Mundo · Inicio" />
+  <meta property="og:description" content="Talleres tecno-pedagógicos para chicas y chicos de 13 a 18 años. Aprender haciendo, jugando y creando con profesionales de la industria tech." />
+  <meta property="og:type" content="website" />
+
+  <title>Hola Mundo · Inicio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══ OS TOP BAR ═══ -->
+  <header class="os-bar">
+    <span class="os-bar-logo">
+      <span class="os-bar-logo-key"><img src="assets/img/tecla_y.png" alt="Tecla Hola Mundo"></span>
+      HOLA MUNDO · v.2026
+    </span>
+    <nav class="os-bar-menu" aria-label="Navegación principal">
+      <a href="#programa" data-scroll="programa">programa_</a>
+      <a href="#filosofia" data-scroll="filosofia">filosofía_</a>
+      <a href="#mentores" data-scroll="mentores">mentores_</a>
+      <a href="#registro" data-scroll="registro">registro_</a>
+    </nav>
+    <span class="os-bar-clock" id="os-clock" aria-live="polite"></span>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" aria-label="Inicio">
+
+    <!-- Desktop icons — top left -->
+    <div class="hero-icons-tl">
+      <button class="dt-icon" data-scroll="filosofia" type="button" aria-label="Ir a Filosofía">
+        <div class="dt-icon-art">
+          <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+            <circle cx="32" cy="32" r="22" fill="#F63A97" stroke="#00001C" stroke-width="3"/>
+            <ellipse cx="32" cy="32" rx="22" ry="9" fill="none" stroke="#00001C" stroke-width="2"/>
+            <ellipse cx="32" cy="32" rx="9" ry="22" fill="none" stroke="#00001C" stroke-width="2"/>
+            <line x1="10" y1="32" x2="54" y2="32" stroke="#00001C" stroke-width="2"/>
+          </svg>
+        </div>
+        <span class="dt-icon-label">Internet</span>
+      </button>
+
+      <button class="dt-icon" data-scroll="programa" type="button" aria-label="Ir a Programa">
+        <div class="dt-icon-art">
+          <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+            <path d="M6 18 L26 18 L30 22 L58 22 L58 52 L6 52 Z" fill="#FAD627" stroke="#00001C" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M6 22 L58 22" stroke="#00001C" stroke-width="2"/>
+          </svg>
+        </div>
+        <span class="dt-icon-label">Carpetas</span>
+      </button>
+
+      <button class="dt-icon" data-scroll="filosofia" type="button" aria-label="Manifiesto">
+        <div class="dt-icon-art">
+          <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+            <rect x="10" y="6" width="38" height="48" fill="#fff" stroke="#00001C" stroke-width="3"/>
+            <line x1="16" y1="18" x2="42" y2="18" stroke="#00001C" stroke-width="2"/>
+            <line x1="16" y1="26" x2="42" y2="26" stroke="#00001C" stroke-width="2"/>
+            <line x1="16" y1="34" x2="36" y2="34" stroke="#00001C" stroke-width="2"/>
+            <line x1="16" y1="42" x2="42" y2="42" stroke="#00001C" stroke-width="2"/>
+          </svg>
+        </div>
+        <span class="dt-icon-label">Manifiesto</span>
+      </button>
+    </div>
+
+    <!-- Hero center content -->
+    <div class="hero-center">
+      <span class="hero-eyebrow">
+        <span class="blink-dot" aria-hidden="true"></span>
+        cohorte 06 · abril 2026 · 14 cupos
+      </span>
+
+      <!-- Keyboard keys logo -->
+      <img
+        src="assets/img/full_aa.svg"
+        alt="Hola Mundo — logo teclas"
+        class="hm-logo-img"
+      />
+
+      <p class="hero-tagline">
+        Talleres tecno-pedagógicos para chicas y chicos de <em>13 a 18</em>.
+        Aprender haciendo, jugando y creando con profesionales de la industria tech.
+      </p>
+
+      <div class="hero-cta-row">
+        <button class="btn" data-scroll="registro" type="button">▶ inscribirme_</button>
+        <button class="btn btn--ghost" data-scroll="programa" type="button">ver programa_</button>
+      </div>
+    </div>
+
+    <!-- Desktop icons — bottom right -->
+    <div class="hero-icons-br">
+      <button class="dt-icon" data-scroll="mentores" type="button" aria-label="Ir a Mentores">
+        <div class="dt-icon-art">
+          <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+            <rect x="6" y="10" width="46" height="34" rx="2" fill="#fff" stroke="#00001C" stroke-width="3"/>
+            <rect x="11" y="15" width="36" height="24" fill="#40D36D"/>
+            <circle cx="22" cy="26" r="2.2" fill="#00001C"/>
+            <circle cx="34" cy="26" r="2.2" fill="#00001C"/>
+            <path d="M20 31 Q29 36 38 31" fill="none" stroke="#00001C" stroke-width="2.4" stroke-linecap="round"/>
+            <rect x="14" y="48" width="30" height="6" fill="#fff" stroke="#00001C" stroke-width="3"/>
+          </svg>
+        </div>
+        <span class="dt-icon-label">Mi equipo</span>
+      </button>
+
+      <button class="dt-icon" data-scroll="programa" type="button" aria-label="Ir a Talleres">
+        <div class="dt-icon-art">
+          <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+            <path d="M8 28 Q8 18 18 18 L46 18 Q56 18 56 28 L56 42 Q56 50 48 50 L42 50 L38 44 L26 44 L22 50 L16 50 Q8 50 8 42 Z" fill="#40D36D" stroke="#00001C" stroke-width="3" stroke-linejoin="round"/>
+            <rect x="16" y="28" width="4" height="10" fill="#00001C"/>
+            <rect x="11" y="31" width="14" height="4" fill="#00001C"/>
+            <circle cx="42" cy="30" r="2.5" fill="#00001C"/>
+            <circle cx="48" cy="36" r="2.5" fill="#00001C"/>
+          </svg>
+        </div>
+        <span class="dt-icon-label">Talleres</span>
+      </button>
+
+      <button class="dt-icon" type="button" aria-label="Papelera">
+        <div class="dt-icon-art">
+          <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+            <rect x="14" y="18" width="32" height="34" fill="#fff" stroke="#00001C" stroke-width="3"/>
+            <line x1="22" y1="26" x2="22" y2="46" stroke="#00001C" stroke-width="2"/>
+            <line x1="30" y1="26" x2="30" y2="46" stroke="#00001C" stroke-width="2"/>
+            <line x1="38" y1="26" x2="38" y2="46" stroke="#00001C" stroke-width="2"/>
+            <rect x="10" y="12" width="40" height="6" fill="#00001C"/>
+            <rect x="24" y="8" width="12" height="4" fill="#00001C"/>
+          </svg>
+        </div>
+        <span class="dt-icon-label">Papelera</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- ═══ MAIN CONTENT ═══ -->
+  <main>
+
+    <!-- 02 PROGRAMA -->
+    <section id="programa" class="section-anchor" aria-labelledby="prog-title">
+      <div class="dw">
+        <div class="dw-bar" style="background: var(--yellow);">
+          <div class="dw-controls">
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+          </div>
+          <div class="dw-title" id="prog-title">C:\PROGRAMA\talleres.dir</div>
+          <div class="dw-corner"><span class="dw-corner-x">×</span></div>
+        </div>
+        <div class="dw-body">
+          <div class="prog-grid">
+
+            <div class="prog-card">
+              <div class="prog-num">01</div>
+              <div class="prog-body">
+                <div class="prog-name">INTRO.exe</div>
+                <p class="prog-desc">Primer contacto con la tecnología: hardware, software, internet y la lógica detrás de las pantallas.</p>
+                <div class="prog-meta">
+                  <span class="chip chip--mono">4 sesiones</span>
+                  <span class="chip chip--pink">Fundamentos</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="prog-card">
+              <div class="prog-num">02</div>
+              <div class="prog-body">
+                <div class="prog-name">CREA.exe</div>
+                <p class="prog-desc">Diseño digital, edición de imagen, animación y storytelling con herramientas profesionales.</p>
+                <div class="prog-meta">
+                  <span class="chip chip--mono">6 sesiones</span>
+                  <span class="chip chip--pink">Creatividad</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="prog-card">
+              <div class="prog-num">03</div>
+              <div class="prog-body">
+                <div class="prog-name">CODE.exe</div>
+                <p class="prog-desc">Primeros pasos en programación con proyectos reales: webs, juegos y bots simples.</p>
+                <div class="prog-meta">
+                  <span class="chip chip--mono">8 sesiones</span>
+                  <span class="chip chip--pink">Código</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="prog-card">
+              <div class="prog-num">04</div>
+              <div class="prog-body">
+                <div class="prog-name">BUILD.exe</div>
+                <p class="prog-desc">Proyecto final: cada participante construye y presenta su propia idea con mentoría.</p>
+                <div class="prog-meta">
+                  <span class="chip chip--mono">4 sesiones</span>
+                  <span class="chip chip--pink">Showcase</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <div class="stats" role="list" aria-label="Datos clave">
+      <div class="stat" role="listitem">
+        <div class="stat-n">13–18</div>
+        <div class="stat-l">rango de edad</div>
+      </div>
+      <div class="stat" role="listitem">
+        <div class="stat-n">+200</div>
+        <div class="stat-l">participantes 2024</div>
+      </div>
+      <div class="stat" role="listitem">
+        <div class="stat-n">24</div>
+        <div class="stat-l">mentores activos</div>
+      </div>
+      <div class="stat" role="listitem">
+        <div class="stat-n">100%</div>
+        <div class="stat-l">becados</div>
+      </div>
+    </div>
+
+    <!-- 03 FILOSOFÍA -->
+    <section id="filosofia" class="section-anchor" aria-labelledby="philo-title">
+      <div class="dw">
+        <div class="dw-bar" style="background: var(--green);">
+          <div class="dw-controls">
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+          </div>
+          <div class="dw-title" id="philo-title">C:\FILOSOFIA\readme.txt</div>
+          <div class="dw-corner"><span class="dw-corner-x">×</span></div>
+        </div>
+        <div class="dw-body">
+          <div class="philo-intro">
+            <span class="kbd">readme</span>
+            <h3>Cuatro reglas que guían cada taller, cada cohorte, cada decisión.</h3>
+          </div>
+          <div class="philo-grid">
+            <div class="philo-card">
+              <div class="philo-key">JUGAR</div>
+              <p>Aprender se siente como jugar. Cada sesión arranca con un reto, no con una clase.</p>
+            </div>
+            <div class="philo-card">
+              <div class="philo-key">HACER</div>
+              <p>Cero teoría sin manos. Lo que se entiende, se construye. Lo que se construye, se muestra.</p>
+            </div>
+            <div class="philo-card">
+              <div class="philo-key">CUIDAR</div>
+              <p>Espacios seguros, mentores entrenados y reglas claras. La curiosidad necesita confianza.</p>
+            </div>
+            <div class="philo-card">
+              <div class="philo-key">COMPARTIR</div>
+              <p>Cada cohorte termina con una expo. Los proyectos viven fuera del taller.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 MENTORES -->
+    <section id="mentores" class="section-anchor" aria-labelledby="ment-title">
+      <div class="dw">
+        <div class="dw-bar" style="background: var(--pink);">
+          <div class="dw-controls">
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+          </div>
+          <div class="dw-title" id="ment-title">C:\MENTORES\equipo.dir</div>
+          <div class="dw-corner"><span class="dw-corner-x">×</span></div>
+        </div>
+        <div class="dw-body">
+          <div class="mentores-intro">
+            <p>Profesionales en activo de la industria tech. Cada taller corre con dos mentores: uno guía, otro acompaña.</p>
+          </div>
+          <div class="mentores-grid">
+
+            <div class="mentor">
+              <div class="mentor-avatar" style="background: #F63A97;">LR</div>
+              <div class="mentor-meta">
+                <div class="mentor-name">Lucía R.</div>
+                <div class="mentor-role">Front-end · Globant</div>
+              </div>
+            </div>
+
+            <div class="mentor">
+              <div class="mentor-avatar" style="background: #40D36D;">DA</div>
+              <div class="mentor-meta">
+                <div class="mentor-name">Diego A.</div>
+                <div class="mentor-role">Game Dev · Indie</div>
+              </div>
+            </div>
+
+            <div class="mentor">
+              <div class="mentor-avatar" style="background: #FAD627;">SM</div>
+              <div class="mentor-meta">
+                <div class="mentor-name">Sofía M.</div>
+                <div class="mentor-role">UX · Mercado Libre</div>
+              </div>
+            </div>
+
+            <div class="mentor">
+              <div class="mentor-avatar" style="background: #F63A97;">TV</div>
+              <div class="mentor-meta">
+                <div class="mentor-name">Tomás V.</div>
+                <div class="mentor-role">Data · Universidad</div>
+              </div>
+            </div>
+
+            <div class="mentor">
+              <div class="mentor-avatar" style="background: #40D36D;">IP</div>
+              <div class="mentor-meta">
+                <div class="mentor-name">Iris P.</div>
+                <div class="mentor-role">Hardware · Maker</div>
+              </div>
+            </div>
+
+            <div class="mentor">
+              <div class="mentor-avatar" style="background: #FAD627;">JB</div>
+              <div class="mentor-meta">
+                <div class="mentor-name">Juan B.</div>
+                <div class="mentor-role">Backend · Startup</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 REGISTRO -->
+    <section id="registro" class="section-anchor" aria-labelledby="reg-title">
+      <div class="dw">
+        <div class="dw-bar" style="background: var(--yellow);">
+          <div class="dw-controls">
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+            <span class="dw-dot"></span>
+          </div>
+          <div class="dw-title" id="reg-title">C:\REGISTRO\inscripcion.exe</div>
+          <div class="dw-corner"><span class="dw-corner-x">×</span></div>
+        </div>
+        <div class="dw-body">
+
+          <!-- Form state -->
+          <form class="reg" id="reg-form" novalidate>
+            <div class="reg-head">
+              <h3>Inscribite a la próxima cohorte</h3>
+              <p>Cohorte 06 · arranca abril 2026 · 14 cupos disponibles</p>
+            </div>
+            <div class="reg-row">
+              <label>
+                <span>nombre_</span>
+                <input id="reg-name" type="text" placeholder="Tu nombre" required autocomplete="given-name" />
+              </label>
+              <label>
+                <span>edad_</span>
+                <input id="reg-age" type="number" placeholder="13–18" min="13" max="18" required />
+              </label>
+            </div>
+            <label class="reg-full">
+              <span>email_tutor_</span>
+              <input id="reg-email" type="email" placeholder="contacto@ejemplo.com" required autocomplete="email" />
+            </label>
+            <div class="reg-interest">
+              <span class="reg-label">interés_</span>
+              <div class="reg-chips">
+                <button type="button" class="reg-chip" data-value="INTRO">INTRO</button>
+                <button type="button" class="reg-chip" data-value="CREA">CREA</button>
+                <button type="button" class="reg-chip is-on" data-value="CODE">CODE</button>
+                <button type="button" class="reg-chip" data-value="BUILD">BUILD</button>
+              </div>
+            </div>
+            <button type="submit" class="reg-submit">RUN inscripcion.exe →</button>
+          </form>
+
+          <!-- Success state -->
+          <div id="reg-success" style="display:none;" class="reg-success">
+            <div class="reg-success-blink">▶ ENVIADO</div>
+            <h3>Listo, <span id="reg-success-name" class="reg-success-name"></span>.</h3>
+            <p>Te escribimos en 48 hs al correo registrado para confirmar el cupo y siguiente paso.</p>
+            <button class="reg-submit" id="reg-reset" type="button">volver_</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="os-foot">
+    <div>
+      <strong>Hola Mundo</strong> · proyecto tecno-pedagógico · 2026
+    </div>
+    <div class="os-foot-mini">
+      <span>contacto@holamundo.org</span>
+      <span>·</span>
+      <span>@hola.mundo.os</span>
+      <span>·</span>
+      <span>built with ♥ + html</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
